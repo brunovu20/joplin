@@ -1,6 +1,6 @@
 // Allows displaying error stack traces with TypeScript file paths
 require('source-map-support').install();
-
+import './load.env';
 import * as Koa from 'koa';
 import * as fs from 'fs-extra';
 import Logger, { LogLevel, LoggerWrapper, TargetType } from '@joplin/utils/Logger';
